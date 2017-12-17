@@ -1,0 +1,7 @@
+I design my Tokenizer.cpp by C++ and I read the word by string first.
+If the string is the same as token, I add token into my Tokenizer object.
+My hard part is that I read file by string, so it's difficult for me to separate "ABC;".
+Luckily, I came up with the idea to separate them.
+I use Linkedlist to store my token because we do not the exact length of program.
+My Linkedlist name is LinkedList and my Tokenizer object is "mytokenizer".
+ 
